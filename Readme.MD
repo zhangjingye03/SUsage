@@ -1,10 +1,7 @@
 <p>Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.0-milestone5</p>
 <p>Latest update：2016.1.31 15.56</p>
 <p>©2016 @Zhxsupc</p>
-<p>Created By Mr.Yang</p> 
-<p>           df7c5117</p>
-<p>           GhostShdowTan</p>
-<p>           [Unknown]</p>
+<p>Created By @杨沂霖 @df7c5117 @GhostShdowTan @橡胶人AS</p>
 <p>           SUPC Web Group</p>
 <p>Contact:zhxsuwebgroup@live.com</p>
 <p>Every one can modified it except for the already existing codes </p>
