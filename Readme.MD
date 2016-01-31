@@ -1,5 +1,5 @@
 <b>Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.0-milestone5</b>
-<b>Latest update：2016.1.31 22:29</b>
+<p><b>Latest update：2016.1.31 22:29</b></p>
 <b>©2016 @Zhxsupc</b>
 <p>  </p>
 <b>Created By @杨沂霖 | @df7c5117 | @GhostShdowTan | @橡胶人AS </b>
