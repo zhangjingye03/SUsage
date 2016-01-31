@@ -10,7 +10,7 @@
 <p>Every one can modified it except for the already existing codes </p>
 <h3>这是个啥w</h3>
   <p>嗯，执信学生会的网上办公平台。</p>
-  <p>一个神迷的系统，完全由36.5th SUPC自主研制开发。</p><a href="https://github.com/zhxsuwebgroup/SU_OA/wiki/Susage-%7C-%E6%A6%82%E8%BF%B0" target="">请戳这里</a>
+  <p>一个神迷的系统，完全由36.5th SUPC自主研制开发。</p><a href="https://github.com/zhxsuwebgroup/SU_OA/wiki/Susage-%7C-%E6%A6%82%E8%BF%B0" target="_blank">请戳这里</a>
 <h3>为啥叫这个名字w</h3>
   <p>StudentUnion简写“SU”和Message的组合自造词。<s>让人酥酥的公告系统</s></p>
   <p><s>雅号香肠</s></p>
