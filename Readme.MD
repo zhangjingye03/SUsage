@@ -1,11 +1,11 @@
 <p>Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.0-milestone5</p>
 <p>Latest update：2016.1.31 15.56</p>
 <p>©2016 @Zhxsupc</p>
-Created By Mr.Yang 
-           df7c5117
-           GhostShdowTan
-           [Unknown]
-           SUPC Web Group
+<p>Created By Mr.Yang</p> 
+<p>           df7c5117</p>
+<p>           GhostShdowTan</p>
+<p>           [Unknown]</p>
+<p>           SUPC Web Group</p>
 <p>Contact:zhxsuwebgroup@live.com</p>
 <p>Every one can modified it except for the already existing codes </p>
 <h3>这是个啥w</h3>
@@ -34,4 +34,5 @@ Created By Mr.Yang
   <p>Don't have Security System</p>
 <h3>注意事项</h3>
   <p>按照<s>基本法</s>index里的提示写就好啦</p>
+  <p>建议其余页面基于index改动</p>
   <a href="https://github.com/zhxsuwebgroup/SU_OA/wiki" target="_blank">修改时，欢迎参看我们的wiki</a>
