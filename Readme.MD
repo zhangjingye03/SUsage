@@ -1,10 +1,14 @@
-<p>Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.0-milestone5</p>
-<p>Latest update：2016.1.31 15.56</p>
-<p>©2016 @Zhxsupc</p>
-<p>Created By @杨沂霖 @df7c5117 @GhostShdowTan @橡胶人AS</p>
-<p>           SUPC Web Group</p>
-<p>Contact:zhxsuwebgroup@live.com</p>
-<p>Every one can modified it except for the already existing codes </p>
+<b>Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.0-milestone5</b>
+<b>Latest update：2016.1.31 22:29</b>
+<b>©2016 @Zhxsupc</b>
+<p>  </p>
+<b>Created By @杨沂霖 @df7c5117 @GhostShdowTan @橡胶人AS</b>
+<b>           SUPC Web Group</b>
+<p>  </p>
+<b>Contact:zhxsuwebgroup@live.com</b>
+<p>  </p>
+<b>Every one can modified it except for the already existing codes </b>
+<p>  </p>
 <h3>这是个啥w</h3>
   <p>嗯，执信学生会的网上办公平台。</p>
   <p>一个神迷的系统，完全由36.5th SUPC自主研制开发。</p><a href="https://github.com/zhxsuwebgroup/SU_OA/wiki/Susage-%7C-%E6%A6%82%E8%BF%B0" target="_blank">请戳这里</a>
