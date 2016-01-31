@@ -30,3 +30,4 @@ Created By Mr.Yang
   <p>Don't have Security System</p>
 <h3>注意事项</h3>
   <p>按照<s>基本法</s>index里的提示写就好啦</p>
+  <a href="https://github.com/zhxsuwebgroup/SU_OA/wiki" target="_blank>修改时，欢迎参看我们的wiki</p>
