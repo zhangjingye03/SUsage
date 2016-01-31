@@ -3,7 +3,7 @@
 <!-- Created By Mr.Yang df7c5117 GhostShdowTan [Unknown] SUPC Web Group -->
 <!-- Contact:zhxsuwebgroup@live.com -->
 <!-- Every one can modified it except for the already existing codes -->
-<!-- Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.1-milestone5 -->
+<!-- Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.0-milestone5 -->
 <!-- ©2016 @Zhxsupc -->
 <!-- something new -->
 <!-- 1.fix some bugs of push layer -->
@@ -88,7 +88,7 @@ javascript:
 
 
 <!--第一个appbox-->
-<a href="..\entity\file.html"><!--Edit here (修改路径即可)--><div id="ex-dnavbar-appbox1" class="ex-dnavbar-appbox" title="放奇怪的东西的地方【我才这么小你就跟我说这些">
+<a href="#"><!--Edit here (修改路径即可)--><div id="ex-dnavbar-appbox1" class="ex-dnavbar-appbox" title="放奇怪的东西的地方【我才这么小你就跟我说这些">
 <div class="ex-dnavbar-appbox-fixbox"><img src="../universal-res/images/icons/bar/ic_files.png" style="height:52px;width:52px;" /><!--Edit here (修改路径即可)--></div>
 <div class="ex-dnavbar-appbox-text">文件库<!--Edit here (修改文字即可)--></div>
 </div></a>
@@ -109,12 +109,6 @@ javascript:
 
 <!--下面两只，除主界面其他界面可删除发布按钮，但请全部保留返回顶部按钮-->
 
-<!--发布按钮-->
-<div id="ex-dnavbar-appbox4" class="ex-dnavbar-appbox-push" title="想发点啥呢w"><a onclick="show(); return false" href="#">
-<div class="ex-dnavbar-appbox-fixbox-push"><img src="../universal-res/images/icons/bar/ic_create.png" style="height:52px;width:52px;" /></div>
-<div class="ex-dnavbar-appbox-text-push">我要发布</div>
-</a></div>
-
 <!--返回顶部-->
 <a href="#top"><div id="ex-dnavbar-appbox5" class="ex-dnavbar-appbox" title="咻咻~">
 <div class="ex-dnavbar-appbox-fixbox"><img src="../universal-res/images/icons/bar/ic_backtop.png" style="height:52px;width:52px;" /><!--Edit here (修改路径即可)--></div>
@@ -128,71 +122,6 @@ javascript:
 
 
 
-<!-- 发布框模块 -->
-<div id="show" style="position:absolution;z-index:15;height:410px;width:900px;max-height:680px;padding:0px 5px 0px 5px;">
-			<h3>你要发布什么( · ω · )</h3>
-                        <textarea id="textarea1" style="height:300px; width:100%;padding:0px 0px 0px 0px">
-			</textarea>
-    <p>哦按esc也会退出哟w，小心别手残在写东西的时候按到</p>
-    <!-- 确认键 还没做 -->
-</div>
-<!-- 发布框结束 -->
 
-
-
-<div id="top"><!-- 这只是个锚标记，用于返回顶部 --></div>
-<div id="main" style="position:absolute;width:100%;left:25%;padding:80px 0px 20px 0px;" >
-<p>(..•˘_˘•..)咦这是啥w(๑•́ ₃ •̀๑)能吃吗w(,,•́ . •̀,,)不能啊摔！（ノ*-_-*)ノ┴—┴ </p>
-<p style="fontweight:bold;color:#F50057">这个body应该分成两个Part，一个是自己的任务（列表及收藏，直观展现，可能还有发布历史记录，提供入口），另一个是全部任务，瀑布流实现。</p>
-<p>(￣^￣)哼唧</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚动的(￣^￣)</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>(￣^￣)我是来测试滚动的</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚动的(￣^￣)</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>(￣^￣)我是来测试滚动的</p>
-</div>
-<!--脚本引用，line175又报错了,貌似是双引号和单引号的问题-->
-<script src="../universal-res/js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="../universal-res/js/wangEditor.min.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$('#textarea1').wangEditor({
-				//注意，menuConfig必须是一个二维数组
-				//G：你妹，搞这么复杂！
-				'menuConfig': [
-					['fontSize','bold','underline', 'strikethrough','italic', 'foreColor', 'backgroundColor', ],
-					['list','justify'],
-					['createLink','insertHr','undo']
-				]
-			});
-		});
-	</script>
 </body>
 </html>
