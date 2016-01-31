@@ -3,7 +3,7 @@
 <b>©2016 @Zhxsupc</b>
 <p>  </p>
 <b>Created By @杨沂霖 | @df7c5117 | @GhostShdowTan | @橡胶人AS </b>
-<b>            |@SUPC Web Group</b>
+<b>            | @SUPC Web Group</b>
 <p>  </p>
 <b>Contact:zhxsuwebgroup@live.com</b>
 <p>  </p>
