@@ -10,6 +10,10 @@ Created By Mr.Yang
 <p>Every one can modified it except for the already existing codes </p>
 <h3>这是个啥w</h3>
   <p>嗯，执信学生会的网上办公平台。</p>
+  <p>一个神迷的系统，完全由36.5th SUPC自主研制开发。</p><a href="https://github.com/zhxsuwebgroup/SU_OA/wiki/Susage-%7C-%E6%A6%82%E8%BF%B0" target="">请戳这里</a>
+<h3>为啥叫这个名字w</h3>
+  <p>StudentUnion简写“SU”和Message的组合自造词。<s>让人酥酥的公告系统</s></p>
+  <p><s>雅号香肠</s></p>
 <h3>好处都有啥w</h3>
   <s>有了SUsage，不流失不蒸发</s>
   <p>可以发布公告、通知、站内信，布置任务省时省力。</p>
