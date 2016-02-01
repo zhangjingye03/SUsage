@@ -1,5 +1,5 @@
-<b>Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.0-milestone5</b>
-<p><b>Latest update：2016.2.1 10:10</b></p>
+<b>Zhixin StudentUnion OA System #Codename"SUsage" PostSYSVersion 0.2.4-milestone6；FileSYSVersion 0.2.1-milestone1</b>
+<p><b>Latest update：2016.2.2 00:50</b></p>
 <b>©2016 @Zhxsupc</b>
 <p>  </p>
 <b>Created By @杨沂霖 | @df7c5117 | @GhostShdowTan | @橡胶人AS </b>
@@ -24,17 +24,25 @@
   <p>界面美观又漂亮,【咦有语病</p><p><s>这真的是Material Design吗w</s></p>
   <b>!!!!!!!!任务没接好可是会被打脸的哟!!!!!!!!</b>
 <h3>近期的事情</h3>
+  <p><b>----2016.2.2----</b></p>
+  <p>改变页面层次架构，使脚本位置更合理。</p>
+  <p>界面优化，大量圆角实现。</p>
+  <p>加入MD设计的任务列表。</p>
+  <p><b>----2016.2.1----</b></p>
+  <p>加入发送按钮、半残不残的输入框为空判定。</p>
+  <p>确定了文件库样式，使用了<a href="http://www.kalcaddle.com/index.html">KodExplorer 3.2</a></p>
+  <p><b>----2016.1.31----</b></p>
+  <p>body改了一些样式，提供了一些参考</p>
+  <p>标题栏有图标啦</p>
+  <p>加入了富文本编辑器<a href="http://wangeditor.github.io/" target="_blank">WangEditor</a></p>
+  <p><b>----2016.1.30----</b></p>
+  <p>全面换装MD样式,<s>很不md的md</s></p>
   <p>修好了导航栏的一些样式</p>
   <p>修好了弹出层的z-index惊天bug</p>
   <p>调整弹出层UI和界面逻辑</p>
-  <p>标题栏有图标啦</p>
-  <p>全面换装MD样式,<s>很不md的md</s></p>
-  <p>body改了一些样式，提供了一些参考</p>
-  <p>加入了富文本编辑器<a href="http://wangeditor.github.io/" target="_blank">WangEditor</a></p>
-  <p>加入发送按钮、半残不残的输入框为空判定。</p>
-  <p>确定了文件库样式，使用了<a href="http://www.kalcaddle.com/index.html">KodExplorer 3.2</a></p>
+  
+  
 <h3>亟待修复</h3>
-  <p>一些奇怪的按钮还没有做</p>
   <p>还没有加入页面瀑布流样式</p>
   <p>尚未与数据库接口</p>
   <p>螺旋升天的输入框为空判定以及刷新提示。</p>
