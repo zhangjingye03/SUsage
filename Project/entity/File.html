@@ -1,65 +1,21 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<!-- Created By Mr.Yang df7c5117 GhostShdowTan [Unknown] SUPC Web Group -->
+<!-- Created By 杨沂霖 df7c5117 GhostShdowTan 橡胶人AS SUPC Web Group -->
 <!-- Contact:zhxsuwebgroup@live.com -->
 <!-- Every one can modified it except for the already existing codes -->
-<!-- Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.1-milestone5 -->
+<!-- Zhixin StudentUnion OA System #Codename"SUsage" File Syste Version 0.2.1-milestone1 -->
 <!-- ©2016 @Zhxsupc -->
 <!-- something new -->
-<!-- 1.fix some bugs of push layer -->
-<!-- 2.add a confirm dialog for exit -->
-<!-- 3.add textbox -->
+<!-- nothing yet -->
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="../universal-res/css/yyl/ex-navbar-green1.css" />
 <link rel="stylesheet" href="../material-framework/css/material.css" />
-<title>(/￣▽￣)/呐，这是你的锅【啪】哦不对，任务，接着！ノ( ‘ – ‘ノ) | Zhixin SUsage milestone5</title>
-<link rel="shortcut icon" href="../universal-res/images/icons/title/task_128X128.ico"/>
-<!--引入wangEditor.css-->
-    <link rel="stylesheet" type="text/css" href="../universal-res/css/zyf/wangEditor.css">
-<!--发布窗口叠加层依赖-->
-<style>
-*{margin:0;padding:0px;}
-#show{width:300px;height:200px;display:none;padding:1px;position:absolute;border:1px solid #808080;background:#fff;z-index:10;zoom:1;}
-#show h3{background:#fff;color:#808080;font-size:14px;font-family:微软雅黑;padding:5px;}
-#show span{position:fixed;right:15px;top:5px;font-size:32px;display:block;cursor:pointer;color:#fff;font-weight:bold;}
-#show p{padding:5px;line-height:none;font-family:"microsoft yahei"}
-#text{font-size:12px;text-indent:2em;line-height:20px;}
-#bgbox{position:absolute;left:0;top:0;display:block;background:#000;filter:alpha(opacity=30);opacity:0.3;z-index:13;}
-</style>
-<script type="text/javascript">
-function show(){
-var iWidth = document.documentElement.clientWidth;
-var iHeight = document.documentElement.clientHeight;
-var bgObj = document.createElement("div");
-bgObj.setAttribute("id","bgbox");
-bgObj.style.width = iWidth+"px";
-bgObj.style.height =Math.max(document.body.clientHeight, iHeight)+"px";
-document.body.appendChild(bgObj);
-var oShow = document.getElementById('show');
-oShow.style.display = 'block';
-oShow.style.left = (iWidth-832)/2+"px";
-oShow.style.top = (iHeight-492)/2+"px";
-var oClosebtn = document.createElement("span");
-oClosebtn.innerHTML = "×";
-oShow.appendChild(oClosebtn);
-function oClose(){
-oShow.style.display = 'none';
-oShow.removeChild(oClosebtn);
-document.body.removeChild(bgObj);
-}
-oClosebtn.onclick = oClose;
-function getEvent() {
-return window.event || arguments.callee.caller.arguments[0];
-}
-document.onkeyup = function(){
-var event = getEvent();
-if (event.keyCode == 27){
-oClose();
-}
-}
-}
-</script>
+<title>(/￣▽￣)/先别管那么多了，快上车！ | Zhixin SUsage #File System milestone1</title>
+<link rel="shortcut icon" href="../universal-res/images/icons/title/files_128X128.ico"/>
+
+
 <!-- 退出确认（接口#1，退出机制还没写好） -->
 <script LANGUAGE="javascript">
 javascript:  
@@ -88,9 +44,9 @@ javascript:
 
 
 <!--第一个appbox-->
-<a href="..\entity\file.html"><!--Edit here (修改路径即可)--><div id="ex-dnavbar-appbox1" class="ex-dnavbar-appbox" title="放奇怪的东西的地方【我才这么小你就跟我说这些">
-<div class="ex-dnavbar-appbox-fixbox"><img src="../universal-res/images/icons/bar/ic_files.png" style="height:52px;width:52px;" /><!--Edit here (修改路径即可)--></div>
-<div class="ex-dnavbar-appbox-text">文件库<!--Edit here (修改文字即可)--></div>
+<a href="..\entity\index.html"><!--Edit here (修改路径即可)--><div id="ex-dnavbar-appbox1" class="ex-dnavbar-appbox" title="接好任务啊~">
+<div class="ex-dnavbar-appbox-fixbox"><img src="../universal-res/images/icons/bar/ic_task.png" style="height:52px;width:52px;" /><!--Edit here (修改路径即可)--></div>
+<div class="ex-dnavbar-appbox-text">主页<!--Edit here (修改文字即可)--></div>
 </div></a>
 
 
@@ -107,13 +63,7 @@ javascript:
 <div class="ex-dnavbar-appbox-text">批斗大会<!--Edit here (修改文字即可)--></div>
 </div></a>
 
-<!--下面两只，除主界面其他界面可删除发布按钮，但请全部保留返回顶部按钮-->
-
-<!--发布按钮-->
-<div id="ex-dnavbar-appbox4" class="ex-dnavbar-appbox-push" title="想发点啥呢w"><a onclick="show(); return false" href="#">
-<div class="ex-dnavbar-appbox-fixbox-push"><img src="../universal-res/images/icons/bar/ic_create.png" style="height:52px;width:52px;" /></div>
-<div class="ex-dnavbar-appbox-text-push">我要发布</div>
-</a></div>
+<!--请保留返回顶部按钮-->
 
 <!--返回顶部-->
 <a href="#top"><div id="ex-dnavbar-appbox5" class="ex-dnavbar-appbox" title="咻咻~">
@@ -128,22 +78,10 @@ javascript:
 
 
 
-<!-- 发布框模块 -->
-<div id="show" style="position:absolution;z-index:15;height:410px;width:900px;max-height:680px;padding:0px 5px 0px 5px;">
-			<h3>你要发布什么( · ω · )</h3>
-                        <textarea id="textarea1" style="height:300px; width:100%;padding:0px 0px 0px 0px">
-			</textarea>
-    <p>哦按esc也会退出哟w，小心别手残在写东西的时候按到</p>
-    <!-- 确认键 还没做 -->
-</div>
-<!-- 发布框结束 -->
-
-
-
 <div id="top"><!-- 这只是个锚标记，用于返回顶部 --></div>
 <div id="main" style="position:absolute;width:100%;left:25%;padding:80px 0px 20px 0px;" >
 <p>(..•˘_˘•..)咦这是啥w(๑•́ ₃ •̀๑)能吃吗w(,,•́ . •̀,,)不能啊摔！（ノ*-_-*)ノ┴—┴ </p>
-<p style="fontweight:bold;color:#F50057">这个body应该分成两个Part，一个是自己的任务（列表及收藏，直观展现，可能还有发布历史记录，提供入口），另一个是全部任务，瀑布流实现。</p>
+<p style="fontweight:bold;color:#F50057">实现方式您自己看着办</p>
 <p>(￣^￣)哼唧</p>
 <p>我(￣^￣)是来测试滚动的</p>
 <p>我是(￣^￣)来测试滚动的</p>
@@ -178,21 +116,8 @@ javascript:
 <p>我(￣^￣)是来测试滚动的</p>
 <p>(￣^￣)我是来测试滚动的</p>
 </div>
-<!--脚本引用，line175又报错了,貌似是双引号和单引号的问题-->
+<!--脚本引用-->
 <script src="../universal-res/js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="../universal-res/js/wangEditor.min.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$('#textarea1').wangEditor({
-				//注意，menuConfig必须是一个二维数组
-				//G：你妹，搞这么复杂！
-				'menuConfig': [
-					['fontSize','bold','underline', 'strikethrough','italic', 'foreColor', 'backgroundColor', ],
-					['list','justify'],
-					['createLink','insertHr','undo']
-				]
-			});
-		});
-	</script>
+
 </body>
 </html>
