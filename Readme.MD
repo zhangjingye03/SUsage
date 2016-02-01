@@ -1,4 +1,9 @@
-<b>Zhixin StudentUnion OA System #Codename"SUsage" PostSYSVersion 0.2.4-milestone6；FileSYSVersion 0.2.1-milestone1</b>
+<b>Zhixin StudentUnion OA System #Codename"SUsage" 
+<p>PostSYSVersion 0.2.4-milestone6</p>
+<p>FileSYSVersion 0.2.1-milestone1</p>
+<p>MSGSYSVersion 0.0.0-milestone0</p>
+<p>Perse.SYSVersion 0.0.0-milestone0</p>
+<p>LoginSYSVersion 0.0.0-milestone0</p>
 <p><b>Latest update：2016.2.2 00:50</b></p>
 <b>©2016 @Zhxsupc</b>
 <p>  </p>
