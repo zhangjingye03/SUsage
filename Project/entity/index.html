@@ -3,7 +3,7 @@
 <!-- Created By Mr.Yang df7c5117 GhostShdowTan [Unknown] SUPC Web Group -->
 <!-- Contact:zhxsuwebgroup@live.com -->
 <!-- Every one can modified it except for the already existing codes -->
-<!-- Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.1-milestone5 -->
+<!-- Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.4-milestone6 -->
 <!-- ©2016 @Zhxsupc -->
 <!-- something new -->
 <!-- 1.fix some bugs of push layer -->
@@ -11,21 +11,28 @@
 <!-- 3.add textbox -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--引入wangEditor.css等样式表-->
+<div id="sheetpart">
 <link rel="stylesheet" href="../universal-res/css/yyl/ex-navbar-green1.css" />
 <link rel="stylesheet" href="../material-framework/css/material.css" />
+<link rel="stylesheet" type="text/css" href="../universal-res/css/zyf/wangEditor.css">
+</div>
+<!--网站标题以及icon-->
 <title>(/￣▽￣)/呐，这是你的锅【啪】哦不对，任务，接着！ノ( ‘ – ‘ノ) | Zhixin SUsage milestone5</title>
 <link rel="shortcut icon" href="../universal-res/images/icons/title/task_128X128.ico"/>
-<!--引入wangEditor.css-->
-    <link rel="stylesheet" type="text/css" href="../universal-res/css/zyf/wangEditor.css">
+
+    
 <!--发布窗口叠加层依赖-->
 <style>
 *{margin:0;padding:0px;}
-#show{width:300px;height:200px;display:none;padding:1px;position:absolute;border:1px solid #808080;background:#fff;z-index:10;zoom:1;}
+#show{width:300px;height:200px;display:none;padding:1px;position:absolute;border:1px solid #808080;background:#fff;z-index:10;zoom:1;border-radius: 5px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+	            0 1px 5px 0 rgba(0, 0, 0, 0.12),
+	            0 3px 1px -2px rgba(0, 0, 0, 0.2);}
 #show h3{background:#fff;color:#808080;font-size:14px;font-family:微软雅黑;padding:5px;}
 #show span{position:fixed;right:15px;top:5px;font-size:32px;display:block;cursor:pointer;color:#fff;font-weight:bold;}
 #show p{padding:5px;line-height:none;font-family:"microsoft yahei"}
 #text{font-size:12px;text-indent:2em;line-height:20px;}
-#bgbox{position:absolute;left:0;top:0;display:block;background:#000;filter:alpha(opacity=30);opacity:0.3;z-index:13;}
+#bgbox{position:absolute;left:0;top:0;display:block;background:#000;filter:alpha(opacity=30);opacity:0.3;z-index:14;}
 </style>
 <script type="text/javascript">
 function show(){
@@ -60,29 +67,7 @@ oClose();
 }
 }
 </script>
-<!-- 退出确认（接口#1，退出机制还没写好） -->
-<script LANGUAGE="javascript">
-javascript:  
-    function firm() {  
-         
-        if (confirm("你真的真的真的要退出吗?")) {  <!-- something here -->
-        }  
-        else {  
-        }  
-  
-    }  
-</script>
-<script type="text/javascript">
-function check(textarea.value){
-    if (value == null)
-{
-    alert("你还啥都没写呢！");
-}
-    if (value == "") 
-{
-	alert("你还啥都没写呢！");
-}
-</script>
+
 </head>
 
 <body style="position:absolute;width:80%;">
@@ -142,7 +127,7 @@ function check(textarea.value){
 <!-- 发布框模块 -->
 <div id="show" style="position:absolution;z-index:15;height:410px;width:900px;max-height:680px;padding:0px 5px 0px 5px;">
 			<h3>你要发布什么( · ω · )</h3>
-                        <textarea id="textarea1" style="height:300px; width:100%;padding:0px 0px 0px 0px">
+                        <textarea id="textarea1" style="border-radius: 5px;height:300px; width:100%;padding:0px 0px 0px 0px">
 			</textarea>
     <p>○ 哦姐姐忘说了按esc也会退出哟w，小心别手残在写东西的时候按到。——df7c5117</p>
         <!-- 确认键 -->
@@ -155,46 +140,128 @@ function check(textarea.value){
 
 
 <div id="top"><!-- 这只是个锚标记，用于返回顶部 --></div>
-<div id="main" style="position:absolute;width:100%;left:25%;padding:80px 0px 20px 0px;" >
-<p>(..•˘_˘•..)咦这是啥w(๑•́ ₃ •̀๑)能吃吗w(,,•́ . •̀,,)不能啊摔！（ノ*-_-*)ノ┴—┴ </p>
-<p style="fontweight:bold;color:#F50057">这个body应该分成两个Part，一个是自己的任务（列表及收藏，直观展现，可能还有发布历史记录，提供入口），另一个是全部任务，瀑布流实现。</p>
-<p>(￣^￣)哼唧</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚动的(￣^￣)</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>(￣^￣)我是来测试滚动的</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚动的(￣^￣)</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>(￣^￣)我是来测试滚动的</p>
+<!-- 放在顶上的链接，实际上就是页脚 -->
+<div id="about" class="ex-about" style="position:absolute;top:100px;width:100%;text-align:center;z-index:1;"><a href="https://github.com/zhxsuwebgroup/SUsage/wiki/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C-%7C-How-to-Use" target="_blank">还不知道使用方法？</a>·<a href="http://zhxsuwebgroup.github.io/SUsage/" target="_blank"> 关于这个系统 </a>· ©2016 执信学生会电脑部网页组</div>
+<!-- 当前任务列表 -->
+<div id="list" class="card rich-card" style="position:absolute;top:150px;width:100%;height:400px;text-align:center;z-index:1;left:13%;right:13%;">
+    <p style="position:absolute;left:25px;font-size:18px;font-family:Microsoft Yahei;"><img src="../universal-res/images/icons/candidate/ic_note_black.png" style="position:relative;top:6px;height:25px;width:25px;" /> 这是任务列表</p>
+    <div class="card-hero" >
+		<p style="position:absolute;left:55px;top:35px;font-size:18px;font-family:Microsoft Yahei;color:#00E676;">something here</p>
+	</div>
+<div class="divider" style="position:absolute;bottom:50px;"></div>
+<div class="card-footer" style="position:absolute;bottom:0px;right:25px;">
+		<button class="button flat" style="font-family:'Microsoft Yahei'">历史记录</button>
+		<button class="button flat color-green-600" style="font-family:'Microsoft Yahei'">收藏夹</button>
+	</div>
 </div>
 <!--脚本引用-->
 <script src="../universal-res/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="../universal-res/js/wangEditor.min.js"></script>
+	<!-- 退出确认（接口#1，退出机制还没写好） -->
+	<script LANGUAGE="javascript">
+javascript:  
+    function firm() {  
+         
+        if (confirm("你真的真的真的要退出吗?")) {  <!-- something here -->
+        }  
+        else {  
+        }  
+  
+    }  
+</script>
+	<!-- 半残不残的输入框长度判定 -->
+	<script type="text/javascript">
+function check(textarea.value){
+    if (value == null)
+{
+    alert("你还啥都没写呢！");
+}
+    if (value == "") 
+{
+	alert("你还啥都没写呢！");
+}
+</script>
+	<!--瀑布流-->
+	<script>
+$(function(){
+$('#brand-waterfall').waterfall();
+});
+// �ٲ������
+// pannysp 2013.4.9
+;(function ($) {
+    $.fn.waterfall = function(options) {
+        var df = {
+            item: '.item',
+            margin: 15,
+            addfooter: true
+        };
+        options = $.extend(df, options);
+        return this.each(function() {
+            var $box = $(this), pos = [],
+            _box_width = $box.width(),
+            $items = $box.find(options.item),
+            _owidth = $items.eq(0).outerWidth() + options.margin,
+            _oheight = $items.eq(0).outerHeight() + options.margin,
+            _num = Math.floor(_box_width/_owidth);
+            (function() {
+                var i = 0;
+                for (; i < _num; i++) {
+                    pos.push([i*_owidth,0]);
+                } 
+            })();
+            $items.each(function() {
+                var _this = $(this),
+                _temp = 0,
+                _height = _this.outerHeight() + options.margin;
+
+                _this.hover(function() {
+                    _this.addClass('hover');
+                },function() {
+                    _this.removeClass('hover');
+                });
+
+                for (var j = 0; j < _num; j++) {
+                    if(pos[j][1] < pos[_temp][1]){
+                        //�ݴ�topֵ��С���е�index
+                        _temp = j;
+                    }
+                }
+                this.style.cssText = 'left:'+pos[_temp][0]+'px; top:'+pos[_temp][1]+'px;';
+                //����󣬸����¸��е�topֵ
+                pos[_temp][1] = pos[_temp][1] + _height;
+            });
+
+            // ����topֵ���ĸ�����Χdiv
+            (function() {
+                var i = 0, tops = [];
+                for (; i < _num; i++) {
+                    tops.push(pos[i][1]);
+                }
+                tops.sort(function(a,b) {
+                    return a-b;
+                });
+                $box.height(tops[_num-1]);
+                //����β�����div
+                if(options.addfooter){
+                    addfooter(tops[_num-1]);
+                }
+            })();
+            function addfooter(max) {
+                var addfooter = document.createElement('div');
+                addfooter.className = 'item additem';
+                for (var i = 0; i < _num; i++) {
+                    if(max != pos[i][1]){
+                        var clone = addfooter.cloneNode(),
+                        _height = max - pos[i][1] - options.margin;
+                        clone.style.cssText = 'left:'+pos[i][0]+'px; top:'+pos[i][1]+'px; height:'+_height+'px;';
+                        $box[0].appendChild(clone);
+                    }
+                }
+            }
+        });
+    }
+})(jQuery);</script>
+	<!--wangeditor操作-->
 	<script type="text/javascript">
 		$(function(){
 			$('#textarea1').wangEditor({
@@ -208,6 +275,7 @@ function check(textarea.value){
 			});
 		});
 	</script>
+        
 </body>
 </html>
 <!--D：这玩意某些地方还没更新……先不管这些了-->
