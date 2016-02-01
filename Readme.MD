@@ -1,4 +1,4 @@
-<b>Zhixin StudentUnion OA System #Codename"SUsage" 
+<b>Zhixin StudentUnion OA System #Codename"SUsage" </b>
 <p>PostSYSVersion 0.2.4-milestone6</p>
 <p>FileSYSVersion 0.2.1-milestone1</p>
 <p>MSGSYSVersion 0.0.0-milestone0</p>
