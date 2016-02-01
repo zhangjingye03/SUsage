@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!-- Created By Mr.Yang df7c5117 GhostShdowTan [Unknown] SUPC Web Group -->
 <!-- Contact:zhxsuwebgroup@live.com -->
@@ -72,6 +72,17 @@ javascript:
   
     }  
 </script>
+<script type="text/javascript">
+function check(textarea.value){
+    if (value == null)
+{
+    alert("你还啥都没写呢！");
+}
+    if (value == "") 
+{
+	alert("你还啥都没写呢！");
+}
+</script>
 </head>
 
 <body style="position:absolute;width:80%;">
@@ -133,8 +144,10 @@ javascript:
 			<h3>你要发布什么( · ω · )</h3>
                         <textarea id="textarea1" style="height:300px; width:100%;padding:0px 0px 0px 0px">
 			</textarea>
-    <p>哦按esc也会退出哟w，小心别手残在写东西的时候按到</p>
-    <!-- 确认键 还没做 -->
+    <p>哦姐姐忘说了按esc也会退出哟w，小心别手残在写东西的时候按到。</p>
+        <!-- 确认键 -->
+    <div href="#" onclick="check(textarea1.value)" class="ex-postbtn" id="submitbutton">飞吧！</div> 
+    	<!--文件上传按钮-->
 </div>
 <!-- 发布框结束 -->
 
@@ -185,7 +198,7 @@ javascript:
 		$(function(){
 			$('#textarea1').wangEditor({
 				//注意，menuConfig必须是一个二维数组
-				
+				//G：你妹，搞这么复杂！
 				'menuConfig': [
 					['fontSize','bold','underline', 'strikethrough','italic', 'foreColor', 'backgroundColor', ],
 					['list','justify'],
