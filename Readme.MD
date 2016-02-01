@@ -11,7 +11,7 @@
 <p>  </p>
 <h3>这是个啥w</h3>
   <p>嗯，执信学生会的网上办公平台。</p>
-  <p>一个神迷的系统，完全由36.5th SUPC自主研制开发。</p><a href="https://github.com/zhxsuwebgroup/SU_OA/wiki/Susage-%7C-%E6%A6%82%E8%BF%B0" target="_blank">详情请戳这里</a>
+  <p>一个神秘的系统，完全由36.5th SUPC自主研制开发。</p><a href="https://github.com/zhxsuwebgroup/SU_OA/wiki/Susage-%7C-%E6%A6%82%E8%BF%B0" target="_blank">详情请戳这里</a>
 <h3>为啥叫这个名字w</h3>
   <p>StudentUnion简写“SU”和Message的组合自造词。<s>让人酥酥的公告系统</s></p>
   <p><s>雅号香肠</s></p>
@@ -29,6 +29,7 @@
   <p>body改了一些样式，提供了一些参考</p>
   <p>加入了富文本编辑器<a href="http://wangeditor.github.io/" target="_blank">WangEditor</a></p>
   <p>加入发送按钮、半残不残的输入框为空判定。</p>
+  <p>确定了文件库样式，使用了<a href="http://www.kalcaddle.com/index.html">KodExplorer 3.2</a></p>
 <h3>亟待修复</h3>
   <p>一些奇怪的按钮还没有做</p>
   <p>还没有加入页面瀑布流样式</p>
