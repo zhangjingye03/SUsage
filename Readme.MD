@@ -1,5 +1,5 @@
 <b>Zhixin StudentUnion OA System #Codename"SUsage" Version 0.2.0-milestone5</b>
-<p><b>Latest update：2016.1.31 22:29</b></p>
+<p><b>Latest update：2016.2.1 10:10</b></p>
 <b>©2016 @Zhxsupc</b>
 <p>  </p>
 <b>Created By @杨沂霖 | @df7c5117 | @GhostShdowTan | @橡胶人AS </b>
@@ -28,11 +28,13 @@
   <p>全面换装MD样式,<s>很不md的md</s></p>
   <p>body改了一些样式，提供了一些参考</p>
   <p>加入了富文本编辑器<a href="http://wangeditor.github.io/" target="_blank">WangEditor</a></p>
+  <p>加入发送按钮、半残不残的输入框为空判定。</p>
 <h3>亟待修复</h3>
   <p>一些奇怪的按钮还没有做</p>
   <p>还没有加入页面瀑布流样式</p>
   <p>尚未与数据库接口</p>
-  <p>Don't have Security System</p>
+  <p>螺旋升天的输入框为空判定以及刷新提示。</p>
+  <p>没有Security System</p>
 <h3>注意事项</h3>
   <p>按照<s>基本法</s>index里的提示写就好啦</p>
   <p>建议其余页面基于index改动</p>
