@@ -35,7 +35,7 @@
   <p>加入MD设计的任务列表。</p>
   <p><b>----2016.2.1----</b></p>
   <p>加入发送按钮、半残不残的输入框为空判定。</p>
-  <p>确定了文件库样式，使用了<a href="http://www.kalcaddle.com/index.html">KodExplorer 3.2</a></p>
+  <p>确定了文件库样式，使用了<a href="http://www.kalcaddle.com/index.html" target="_blank">KodExplorer 3.2</a></p>
   <p><b>----2016.1.31----</b></p>
   <p>body改了一些样式，提供了一些参考</p>
   <p>标题栏有图标啦</p>
