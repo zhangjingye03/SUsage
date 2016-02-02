@@ -1,10 +1,10 @@
 <b>Zhixin StudentUnion OA System #Codename"SUsage" </b>
 <p>PostSYSVersion 0.2.4-milestone6</p>
 <p>FileSYSVersion 0.2.1-milestone1</p>
-<p>MSGSYSVersion 0.0.0-milestone0</p>
-<p>Perse.SYSVersion 0.0.0-milestone0</p>
-<p>LoginSYSVersion 0.0.0-milestone0</p>
-<p><b>Latest update：2016.2.2 00:50</b></p>
+<p>MSGSYSVersion 0.2.1-milestone1</p>
+<p>Perse.SYSVersion 0.2.1-milestone1</p>
+<p>LoginSYSVersion 0.2.1-milestone1</p>
+<p><b>Latest update：2016.2.2 21:30</b></p>
 <b>©2016 @Zhxsupc</b>
 <p>  </p>
 <b>Created By @杨沂霖 | @df7c5117 | @GhostShdowTan | @橡胶人AS </b>
@@ -54,5 +54,5 @@
   <p>没有Security System</p>
 <h3>注意事项</h3>
   <p>按照<s>基本法</s>index里的提示写就好啦</p>
-  <p>建议其余页面基于index改动</p>
+  <p>建议其余页面基于已修建好的本页面模版改动</p>
   <a href="https://github.com/zhxsuwebgroup/SU_OA/wiki" target="_blank">修改时，欢迎参看我们的wiki</a>
