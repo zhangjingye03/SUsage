@@ -224,8 +224,6 @@ code {
 	height: 100%;
 	width: 12%;
 	border-radius: 0.75em / 2em;
-	-webkit-transition: width 0.2s, height 0.2s, border-radius 0.2s, left 0.2s, top 0.2s, opacity 0.1s;
-	transition: width 0.2s, height 0.2s, border-radius 0.2s, left 0.2s, top 0.2s, opacity 0.1s;
 	text-align: center;
 	pointer-events: none;
 	opacity: 0;
