@@ -98,7 +98,7 @@ oClose();
 
 <div class="ex-navbar-for-Desktop">
 <!--用户中心，这里设计是点击退出，收藏夹入口可能放在body实现-->
-<a onclick="firm()"><div class="ex-dnavbar-userbox" title="戳一下就退出哦w">
+<a onclick="exit(); return false"><div class="ex-dnavbar-userbox" title="戳一下就退出哦w">
 <div class="ex-dnavbar-userbox-avatarfixbox"><img src="../storageI/avatar/avatar_supc.jpg" style="height:54px;width:54px;" /><!--Edit here 1 (修改路径即可)--></div>
 <div class="ex-dnavbar-userbox-usernamefixbox"><p class="ex-dnacvar-userbox-username">网页组</p><!--Edit here 2（使用php echo出来实现不同用户不同名字)--></div>
 <div class="ex-dnavbar-userbox-descunderunfixbox"><p class="ex-dnavbar-userbox-descunderunfb">欢迎回来</p><!--Edit here 3（使用php echo出来实现不同用户不同名字)--></div>
@@ -143,8 +143,12 @@ oClose();
 <!-- 若允许用户选择主题颜色，则要创建多个css文件，各自对应不同的主题颜色，这样可以更方便地实现该功能（只需修改引用的css文件路径），也有利于简化代码和维护代码。配色方案请从material-framework中的color板块中选择。如果做成非纯色的主题，也可以引用自己的图片 -->
 
 <!--导航栏结束 -->
-
-
+<!--退出提示-->
+<div class="toast" id="toast-exit" style="background-color:#FFA000;position:fixed;width:100%;height:75px;z-index:100;display:none;">
+	<label class="toast-label" style="font-family:微软雅黑;color:#ffffff;position:absolute;left:10%;line-height:55px;">你你你你你你你~真的要退出吗w</label>
+	<button class="button flat" style="font-family:微软雅黑;color:#ffffff;position:absolute;right:10%;line-height:60px;font-size:16px">是的</button>
+    <button id="cancelexit" class="button flat" style="font-family:微软雅黑;color:#ffffff;position:absolute;right:20%;line-height:60px;font-size:16px;font-weight:bold">不是</button>
+</div>
 
 <!-- 发布框模块 -->
 <div id="show" style="position:absolution;z-index:15;height:410px;width:900px;max-height:680px;padding:0px 5px 0px 5px;">
@@ -250,17 +254,15 @@ oClose();
 <!--脚本引用-->
 <script src="../universal-res/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="../universal-res/js/wangEditor.min.js"></script>
-	<!-- 退出确认（接口#1，退出机制还没写好） -->
-	<script LANGUAGE="javascript">
-javascript:  
-    function firm() {  
-         
-        if (confirm("你真的真的真的要退出吗?")) {  <!-- something here -->
-        }  
-        else {  
-        }  
-  
+	<!-- 退出确认 -->
+	<script type="text/javascript">
+	var exitnotify = document.getElementById('toast-exit');
+    function exit() { exitnotify.style.display = " block " ;
     }  
+	var exitcancel = document.getElementById('cancelexit');
+	exitcancel.onclick = cancelexit;
+	function cancelexit() { exitnotify.style.display = " none " ;
+    } 
 </script>
 	<!-- 半残不残的输入框长度判定 -->
 	<script type="text/javascript">

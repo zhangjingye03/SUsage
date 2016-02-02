@@ -14,29 +14,14 @@
 <link rel="stylesheet" href="../material-framework/css/material.css" />
 <title>(/￣▽￣)/先别管那么多了，快上车！ | Zhixin SUsage #File System milestone1</title>
 <link rel="shortcut icon" href="../universal-res/images/icons/title/files_128X128.ico"/>
-
-
-<!-- 退出确认（接口#1，退出机制还没写好） -->
-<script LANGUAGE="javascript">
-javascript:  
-    function firm() {  
-         
-        if (confirm("你真的真的真的要退出吗?")) {  <!-- something here -->
-        }  
-        else {  
-        }  
-  
-    }  
-</script>
 </head>
 
 <body style="position:absolute;width:80%;">
-
 <!--导航栏从此开始 -->
 
 <div class="ex-navbar-for-Desktop">
-<!--用户中心，这里设计是点击退出，收藏夹入口可能放在body实现-->
-<a onclick="firm()"><div class="ex-dnavbar-userbox" title="戳一下就退出哦w">
+<!--用户中心，这里设计是点击退出-->
+<a onclick="exit(); return false"><div class="ex-dnavbar-userbox" title="戳一下就退出哦w">
 <div class="ex-dnavbar-userbox-avatarfixbox"><img src="../storageI/avatar/avatar_supc.jpg" style="height:54px;width:54px;" /><!--Edit here 1 (修改路径即可)--></div>
 <div class="ex-dnavbar-userbox-usernamefixbox"><p class="ex-dnacvar-userbox-username">网页组</p><!--Edit here 2（使用php echo出来实现不同用户不同名字)--></div>
 <div class="ex-dnavbar-userbox-descunderunfixbox"><p class="ex-dnavbar-userbox-descunderunfb">早上好，欢迎回来</p><!--Edit here 3（使用php echo出来实现不同用户不同名字)--></div>
@@ -75,49 +60,29 @@ javascript:
 <!-- 若允许用户选择主题颜色，则要创建多个css文件，各自对应不同的主题颜色，这样可以更方便地实现该功能（只需修改引用的css文件路径），也有利于简化代码和维护代码。配色方案请从material-framework中的color板块中选择。如果做成非纯色的主题，也可以引用自己的图片 -->
 
 <!--导航栏结束 -->
-
+<!--退出提示-->
+<div class="toast" id="toast-exit" style="background-color:#FFA000;position:fixed;width:100%;height:75px;z-index:100;display:none;">
+	<label class="toast-label" style="font-family:微软雅黑;color:#ffffff;position:absolute;left:10%;line-height:55px;">你你你你你你你~真的要退出吗w</label>
+	<button class="button flat" style="font-family:微软雅黑;color:#ffffff;position:absolute;right:10%;line-height:60px;font-size:16px">是的</button>
+    <button id="cancelexit" class="button flat" style="font-family:微软雅黑;color:#ffffff;position:absolute;right:20%;line-height:60px;font-size:16px;font-weight:bold">不是</button>
+</div>
 
 
 <div id="top"><!-- 这只是个锚标记，用于返回顶部 --></div>
-<div id="main" style="position:absolute;width:100%;left:25%;padding:80px 0px 20px 0px;" >
-<p>(..•˘_˘•..)咦这是啥w(๑•́ ₃ •̀๑)能吃吗w(,,•́ . •̀,,)不能啊摔！（ノ*-_-*)ノ┴—┴ </p>
-<p style="fontweight:bold;color:#F50057">实现方式您自己看着办</p>
-<p>(￣^￣)哼唧</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚动的(￣^￣)</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>(￣^￣)我是来测试滚动的</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚动的(￣^￣)</p>
-<p>我是来测试滚动(￣^￣)的</p>
-<p>我是来测试滚(￣^￣)动的</p>
-<p>我是来测试(￣^￣)滚动的</p>
-<p>我是来测(￣^￣)试滚动的</p>
-<p>我是来(￣^￣)测试滚动的</p>
-<p>我是(￣^￣)来测试滚动的</p>
-<p>我(￣^￣)是来测试滚动的</p>
-<p>(￣^￣)我是来测试滚动的</p>
-</div>
+<!-- 放在顶上的链接，实际上就是页脚 -->
+<div id="about" class="ex-about" style="position:absolute;top:100px;width:100%;text-align:center;z-index:1;"><a href="https://github.com/zhxsuwebgroup/SUsage/wiki/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C-%7C-How-to-Use" target="_blank">还不知道使用方法？</a>·<a href="http://zhxsuwebgroup.github.io/SUsage/" target="_blank"> 关于这个系统 </a>· ©2016 执信学生会电脑部网页组</div>
 <!--脚本引用-->
 <script src="../universal-res/js/jquery-1.10.2.min.js"></script>
+<!-- 退出确认 -->
+	<script type="text/javascript">
+	var exitnotify = document.getElementById('toast-exit');
+    function exit() { exitnotify.style.display = " block " ;
+    }  
+	var exitcancel = document.getElementById('cancelexit');
+	exitcancel.onclick = cancelexit;
+	function cancelexit() { exitnotify.style.display = " none " ;
+    } 
+</script>
 
 </body>
 </html>
