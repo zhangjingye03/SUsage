@@ -3,7 +3,7 @@
 <!-- Created By 杨沂霖 df7c5117 GhostShdowTan 橡胶人AS SUPC Web Group -->
 <!-- Contact:zhxsuwebgroup@live.com -->
 <!-- Every one can modified it except for the already existing codes -->
-<!-- Zhixin StudentUnion OA System #Codename"SUsage" File System Version 0.2.1-milestone1 -->
+<!-- Zhixin StudentUnion OA System #Codename"SUsage" File System Version 0.2.2-milestone3 -->
 <!-- ©2016 @Zhxsupc -->
 <!-- something new -->
 <!-- nothing yet -->
@@ -12,7 +12,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="../universal-res/css/tt/file.css" />
 <link rel="stylesheet" href="../material-framework/css/material.css" />
-<title>(/￣▽￣)/先别管那么多了，快上车！ | Zhixin SUsage #File System milestone1</title>
+<title>(/￣▽￣)/先别管那么多了，快上车！ | Zhixin SUsage #File System milestone3</title>
 <link rel="shortcut icon" href="../universal-res/images/icons/title/files_128X128.ico"/>
 </head>
 
@@ -20,12 +20,7 @@
 <!--导航栏从此开始 -->
 
 <div class="ex-navbar-for-Desktop">
-<!--用户中心，这里设计是点击退出-->
-<a onclick="exit(); return false"><div class="ex-dnavbar-userbox" title="戳一下就退出哦w">
-<div class="ex-dnavbar-userbox-avatarfixbox"><img src="../storageI/avatar/avatar_supc.jpg" style="height:54px;width:54px;" /><!--Edit here 1 (修改路径即可)--></div>
-<div class="ex-dnavbar-userbox-usernamefixbox"><p class="ex-dnacvar-userbox-username">网页组</p><!--Edit here 2（使用php echo出来实现不同用户不同名字)--></div>
-<div class="ex-dnavbar-userbox-descunderunfixbox"><p class="ex-dnavbar-userbox-descunderunfb">欢迎回来</p><!--Edit here 3（使用php echo出来实现不同用户不同名字)--></div>
-</div></a>
+
 
 
 <!--<!--第一个appbox-->
@@ -62,7 +57,7 @@
 <!--导航栏结束 -->
 <!--退出提示-->
 <div class="toast" id="toast-exit" style="background-color:#FFA000;position:fixed;width:100%;height:75px;z-index:100;display:none;">
-	<label class="toast-label" style="font-family:微软雅黑;color:#ffffff;position:absolute;left:10%;line-height:55px;">你你你你你你你~真的要退出吗w</label>
+	<label class="toast-label" style="font-family:微软雅黑;color:#ffffff;position:absolute;left:400px;line-height:55px;">你你你你你你你~真的要退出吗w</label>
 	<button class="button flat" style="font-family:微软雅黑;color:#ffffff;position:absolute;right:10%;line-height:60px;font-size:16px">是的</button>
     <button id="cancelexit" class="button flat" style="font-family:微软雅黑;color:#ffffff;position:absolute;right:20%;line-height:60px;font-size:16px;font-weight:bold">不是</button>
 </div>
@@ -72,30 +67,38 @@
 
 <!--侧边菜单-->
 <div class="sidemenu" id="menu">
-	<div class="sidemenu-hero fade">
+	<a onclick="exit(); return false"><div class="sidemenu-hero fade">
 		<img class="avatar" src="../storageI/avatar/avatar_supc.jpg"/>
 		<img class="sidemenu-hero-image" src="../storageI/avatar/1.jpg"/>
-		<span class="title">谭天	</span>
-		<span class="text">网页组</span>
-	</div>
+		<span class="title" style="font-family:微软雅黑;">谭天	</span>
+		<span class="text" style="font-family:微软雅黑;">网页组</span>
+	</div></a>
     <ul class="menu">
-	<li ripple><a href="#">文档</a></li>
-	<li class="divider"></li>
-	<li ripple><a href="#">音乐</a></li>
+    <li ripple style="text-align:center;font-family:微软雅黑;">戳一下头像就退出哦w</li>
     <li class="divider"></li>
-	<li ripple><a href="#">影视</a></li>
+	<li ripple style="font-family:微软雅黑;"><a href="#">文档</a></li>
+	
+	<li ripple style="font-family:微软雅黑;"><a href="#">音乐</a></li>
+    
+	<li ripple style="font-family:微软雅黑;"><a href="#">影视</a></li>
+    
+	<li ripple style="font-family:微软雅黑;"><a href="#">SU工作文件</a></li>
+    
+	<li ripple style="font-family:微软雅黑;"><a href="#">共享文件</a></li>
+    
+	<li ripple style="font-family:微软雅黑;"><a href="#">绝密！老司机资料</a></li>
     <li class="divider"></li>
-	<li ripple><a href="#">SU工作文件</a></li>
-    <li class="divider"></li>
-	<li ripple><a href="#">共享文件</a></li>
-    <li class="divider"></li>
-	<li ripple><a href="#">绝密！老司机资料</a></li>
+    <li ripple style="font-family:微软雅黑;font-size:12px;text-align:center"><a onclick="displaynote(); return false">点此测试通知(通知系统搭建好后可以移除此项)</a></li>
+    <li ripple style="font-family:微软雅黑;font-size:12px;text-align:center"><a href="https://github.com/zhxsuwebgroup/SUsage/wiki/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C-%7C-How-to-Use" target="_blank">还不知道使用方法？</a></li>
+    <li ripple style="font-family:微软雅黑;font-size:12px;text-align:center"><a href="http://zhxsuwebgroup.github.io/SUsage/" target="_blank"> 关于这个系统 </a></li>
+    <li ripple style="font-family:微软雅黑;font-size:12px;color:#9f9f9f;text-align:center">©2016 执信学生会电脑部网页组</li>
+    <li ripple style="font-family:微软雅黑;font-size:12px;color:#9f9f9f;text-align:center">In tech we trust</li>
     </ul>
 </div>
 		
 <!--通知popup-->
 <div class="toast" id="newnotification" style="background-color:#03A9F4;position:fixed;width:100%;top:72px;height:30px;z-index:100;display:none;">
-	<label class="toast-label" style="font-family:微软雅黑;color:#ffffff;position:absolute;left:10%;line-height:6px;">现在你收到了新通知。请点击“站内信”栏目查看。</label>
+	<label class="toast-label" style="font-family:微软雅黑;color:#ffffff;position:fixed;left:500px;line-height:6px;">现在你收到了新通知。请点击“站内信”栏目查看。</label>
 	<button id="noteread" class="button flat" style="font-family:微软雅黑;color:#ffffff;position:absolute;right:10%;line-height:8px;font-size:20px">×</button>
 </div>
 
