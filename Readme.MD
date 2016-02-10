@@ -3,7 +3,7 @@
 <p>FileSYSVersion 0.2.4-milestone6</p>
 <p>MSGSYSVersion 0.2.1-milestone1</p>
 <p>Perse.SYSVersion 0.2.1-milestone1</p>
-<p>LoginSYSVersion 0.2.3-milestone4</p>
+<p>LoginSYSVersion 0.2.4-milestone6</p>
 <p><b>Latest update：2016.2.2 21:30</b></p>
 <b>©2016 @Zhxsupc</b>
 <p>  </p>
@@ -29,6 +29,9 @@
   <p>界面美观又漂亮,【咦有语病</p><p><s>这真的是Material Design吗w</s></p>
   <b>!!!!!!!!任务没接好可是会被打脸的哟!!!!!!!!</b>
 <h3>近期的事情</h3>
+<p><b>----2016.2.10----</b></p>
+  <p>增加注册系统</p>
+  <p>删除KodExplorer</p>
 <p><b>----2016.2.6----</b></p>
   <p>登录系统完善</p>
   <p>文件系统确定M6样式，接口下放前，终止更新</p>
