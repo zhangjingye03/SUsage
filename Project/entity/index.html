@@ -91,12 +91,10 @@
 			</textarea>
     <p style="position:relative;bottom:8px;">一个善意的提示 · <a href="https://github.com/zhxsuwebgroup/SUsage/wiki/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C-%7C-How-to-Use" target="_blank">不会使用请戳这里</a> ——df7c5117</p>
         <!-- 确认键 -->
-    <div href="#" onclick="check(textarea1.value)" class="ex-postbtn" id="submitbutton">飞吧！</div> 
+    <div class="ex-postbtn" id="submitbutton" style="block">飞吧！</div> 
     	<!--文件上传按钮-->
     <div href="#" class="ex-uploadbtn" id="uploadbutton">上传文件</div> 
 </div>
-<!-- 发布框结束 -->
-
 
 
 <div id="top"><!-- 这只是个锚标记，用于返回顶部 --></div>
@@ -133,13 +131,8 @@
     <div class="waterfall-cards cle" id="brand-waterfall">
         <div class="item" id="brand-a">
             <h3>1</h3>
-            <p><a href="#" target="_blank">1</a></p>
-            <p><a href="#" target="_blank">11</a></p>
-            <p><a href="#" target="_blank">111</a></p>
-            <p><a href="#" target="_blank">1111</a></p>
-            <p><a href="#" target="_blank">11111</a></p>
-            <p><a href="#" target="_blank">111111</a></p>
-            <p><a href="#" target="_blank">1111111</a></p>
+            <p></p>
+            
         </div>
         <div class="item" id="brand-c">
             <h3>2</h3>
@@ -220,25 +213,12 @@
 	function noteread() { noteplus.style.display = " none " ;
     } 
 	</script>
-	<!-- 半残不残的输入框长度判定 -->
-	<script type="text/javascript">
-function check(textarea.value){
-    if (value == null)
-{
-    alert("你还啥都没写呢！");
-}
-    if (value == "") 
-{
-	alert("你还啥都没写呢！");
-}
-</script>
 	<!--瀑布流-->
 	<script>
 $(function(){
 $('#brand-waterfall').waterfall();
 });
-// �ٲ������
-// pannysp 2013.4.9
+
 ;(function ($) {
     $.fn.waterfall = function(options) {
         var df = {
@@ -301,6 +281,9 @@ $('#brand-waterfall').waterfall();
         });
     }
 })(jQuery);</script>
+			
+
+
 	<!--发布窗口叠加层依赖-->
 	<script type="text/javascript">
 	function show(){
@@ -324,7 +307,9 @@ oShow.removeChild(oClosebtn);
 document.body.removeChild(bgObj);
 }
 	oClosebtn.onclick = oClose;
+	submitbutton.onclick = oClose;
 	}
+	
 </script>
 	<!--wangeditor操作-->
 	<script type="text/javascript">
@@ -334,12 +319,39 @@ document.body.removeChild(bgObj);
 				//G：你妹，搞这么复杂！
 				'menuConfig': [
 					['fontSize','bold','underline', 'strikethrough','italic', 'foreColor', 'backgroundColor', ],
-					['list','justify'],
-					['createLink','insertHr','undo']
+					['list','justify','undo']
 				]
 			});
 		});
+		
+		if($('#textarea1').value.length==0)
+		{
+			submitbutton.style.display = 'none';
+		}
+	else
+		{
+			submitbutton.style.display = 'block';
+			window.onbeforeunload = onbeforeunload_handler;
+function onbeforeunload_handler(){
+     var warning="东西还没写完呢！";
+     return warning;
+}
+		}
+
 	</script>
+    <!--wangeditor获取-->
+    <script type="text/javascript">
+    $('#submitbutton').click(function () {
+        // 获取编辑器区域完整html代码
+        var html = editor.$txt.html();
+				});
+	$('#submitbutton').click(function () {
+        // 清空内容。
+        // 不能传入空字符串，而必须传入如下参数
+        editor.$txt.html('<p><br></p>');
+    });
+	
+</script>
         
 </body>
 </html>
