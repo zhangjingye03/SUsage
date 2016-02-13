@@ -1,7 +1,7 @@
 <b>Zhixin StudentUnion OA System #Codename"SUsage" </b>
 <p>PostSYSVersion 0.2.4-milestone6</p>
 <p>FileSYSVersion 0.2.4-milestone6</p>
-<p>MSGSYSVersion 0.2.1-milestone1</p>
+<p>MSGSYSVersion 0.2.2-milestone2</p>
 <p>Perse.SYSVersion 0.2.1-milestone1</p>
 <p>LoginSYSVersion 0.3-alpha1</p>
 <p><b>Latest update：2016.2.2 21:30</b></p>
@@ -29,6 +29,8 @@
   <p>界面美观又漂亮,【咦有语病</p><p><s>这真的是Material Design吗w</s></p>
   <b>!!!!!!!!任务没接好可是会被打脸的哟!!!!!!!!</b>
 <h3>近期的事情</h3>
+<p><b>----2016.2.10----</b></p>
+  <p>增加私信系统</p>
 <p><b>----2016.2.10----</b></p>
   <p>增加注册系统</p>
   <p>删除KodExplorer</p>
