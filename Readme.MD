@@ -67,3 +67,12 @@
   <p>按照<s>基本法</s>index里的提示写就好啦</p>
   <p>建议其余页面基于已修建好的本页面模版改动</p>
   <a href="https://github.com/zhxsuwebgroup/SU_OA/wiki" target="_blank">修改时，欢迎参看我们的wiki</a>
+<hr></hr>
+<h3>开源声明及感谢</h3>
+  <p>本项目目前基于以下几个开源项目开发：</p>
+* <a href="https://jquery.org/" target="_blank">John Resig</a>的`jQuery`，遵循`MIT`协议
+* <a href="https://github.com/nt1m/material-framework/" target="_blank">nt1m</a>的`material-framework`，遵循`Apache`协议版本`2.0`
+* <a href="http://wangeditor.github.io/">wangfupeng1988</a>的`WangEditor`
+* Github提供的免费代码仓库
+
+**我们尚未置入License，接下来会考虑使用`GNU General Public Licence `**
