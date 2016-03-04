@@ -7,7 +7,7 @@
 <p><b>Latest update：2016.2.2 21:30</b></p>
 <b>©2016 @Zhxsupc</b>
 <p>  </p>
-<b>Created By @杨沂霖 | @df7c5117 | @GhostShdowTan | @橡胶人AS </b>
+<b>Created By @yyl99311 | @df7c5117 | @GhostShdowTan | @橡胶人AS </b>
 <b>            | @SUPC Web Group</b>
 <p>  </p>
 <b>Contact:zhxsuwebgroup@live.com</b>
